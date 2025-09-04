@@ -19,7 +19,8 @@ uploadArtefacts:
     path:
       - logs/**
     email:
-      - $email
+      to: 
+        - ${email}
 testDiscovery:
   type: raw
   mode: dynamic
